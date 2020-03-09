@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "arXiv Vanity Opener",
+  "version": "0.0.1",
+
+  "description": "A Chrome extension to add a menu to open arXiv papers with arXiv Vanity",
+  "icons": {
+    "16": "./assets/images/icon_16.png",
+    "48": "./assets/images/icon_48.png",
+    "128": "./assets/images/icon_128.png"
+  },
+
+  "background": {
+    "scripts": ["main.js"],
+    "persistent": false
+  },
+  "permissions": ["contextMenus", "tabs"]
+}
